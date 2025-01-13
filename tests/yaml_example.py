@@ -1,6 +1,6 @@
-from praisonai import PraisonAI
+from maahimai import MaahimAI
 from duckduckgo_search import DDGS
-from praisonai_tools import BaseTool
+from maahimai_tools import BaseTool
 
 class InternetSearchTool(BaseTool):
     name: str = "InternetSearchTool"
@@ -29,11 +29,11 @@ roles:
       - "InternetSearchTool"
 """
 
-# Create a PraisonAI instance with the agent_yaml content
-praisonai = PraisonAI(agent_yaml=agent_yaml)
+# Create a MaahimAI instance with the agent_yaml content
+maahimai = MaahimAI(agent_yaml=agent_yaml)
 
-# Run PraisonAI
-result = praisonai.run()
+# Run MaahimAI
+result = maahimai.run()
 
 # Print the result
 print(result)

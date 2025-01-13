@@ -1,12 +1,12 @@
-from praisonai import PraisonAI
+from maahimai import MaahimAI
     
-def auto():
-    praisonai = PraisonAI(
-        auto="Create a movie script about car in mars",
-        framework="autogen"
+def auto(): 
+    maahimai = MaahimAI(
+        agent_file="agents.yaml",
+        auto=True,
+        topic="create a movie script about dog in moon"
     )
-    print(praisonai.framework)
-    return praisonai.run()
+    maahimai.run()
 
 if __name__ == "__main__":
-    print(auto())
+    auto()

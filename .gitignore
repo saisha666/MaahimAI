@@ -10,11 +10,11 @@ assets
 .idea
 .DS_Store
 .pytest_cache
-praisonAI.egg-info
+maahimai.egg-info
 flagged
 test.yaml
 db
-praisonai_prompt.txt
+maahimai_prompt.txt
 watch.sh
 docs.sh
 other
@@ -25,7 +25,7 @@ threads.db
 threads.db-journal
 
 .chainlit
-!praisonai/ui/config/.chainlit
+!maahimai/ui/config/.chainlit
 
 site
 # Ignore Sphinx build directory
@@ -43,7 +43,7 @@ docs/_build/.buildinfo
 docs/_build/.buildinfo/*
 docs/_build/.buildinfo/.buildinfo
 
-praisonai/doc
+maahimai/doc
 
 # agentops
 trained_agents_data.pkl
@@ -62,8 +62,8 @@ credentials.json
 node_modules
 
 outputs
-agents/praisonaiagents/build
-agents/praisonaiagents/dist
-agents/praisonaiagents/praisonaiagents.egg-info
+agents/maahimaiagents/build
+agents/maahimaiagents/dist
+agents/maahimaiagents/maahimaiagents.egg-info
 .codegpt
 .praison

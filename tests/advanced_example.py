@@ -1,12 +1,12 @@
-from praisonai import PraisonAI
+from maahimai import MaahimAI
     
-def advanced():
-    praisonai = PraisonAI(
+def advanced(): 
+    maahimai = MaahimAI(
         agent_file="agents.yaml",
         framework="autogen",
+        topic="create a movie script about dog in moon"
     )
-    print(praisonai)
-    return praisonai.run()
+    maahimai.run()
 
 if __name__ == "__main__":
-    print(advanced())
+    advanced()

@@ -2,30 +2,30 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/logo/dark.png" />
     <source media="(prefers-color-scheme: light)" srcset="docs/logo/light.png" />
-    <img alt="PraisonAI Logo" src="docs/logo/light.png" />
+    <img alt="MaahimAI Logo" src="docs/logo/light.png" />
   </picture>
 </p>
 
 <p align="center">
-<a href="https://github.com/MervinPraison/PraisonAI"><img src="https://static.pepy.tech/badge/PraisonAI" alt="Total Downloads" /></a>
-<a href="https://github.com/MervinPraison/PraisonAI"><img src="https://img.shields.io/github/v/release/MervinPraison/PraisonAI" alt="Latest Stable Version" /></a>
-<a href="https://github.com/MervinPraison/PraisonAI"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License" /></a>
+<a href="https://github.com/MaahimAI/MaahimAI"><img src="https://static.pepy.tech/badge/MaahimAI" alt="Total Downloads" /></a>
+<a href="https://github.com/MaahimAI/MaahimAI"><img src="https://img.shields.io/github/v/release/MaahimAI/MaahimAI" alt="Latest Stable Version" /></a>
+<a href="https://github.com/MaahimAI/MaahimAI"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License" /></a>
 </p>
 
 <div align="center">
 
-# Praison AI
+# Maahim AI
 
-<a href="https://trendshift.io/repositories/9130" target="_blank"><img src="https://trendshift.io/api/badge/repositories/9130" alt="MervinPraison%2FPraisonAI | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/9130" target="_blank"><img src="https://trendshift.io/api/badges/repositories/9130" alt="MaahimAI%2FMaahimAI | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 </div>
 
-PraisonAI is an AI Agents Framework with Self Reflection. PraisonAI application combines PraisonAI Agents, AutoGen, and CrewAI into a low-code solution for building and managing multi-agent LLM systems, focusing on simplicity, customisation, and efficient human–agent collaboration.
+MaahimAI is an AI Agents Framework with Self Reflection. MaahimAI application combines MaahimAI Agents, AutoGen, and CrewAI into a low-code solution for building and managing multi-agent LLM systems, focusing on simplicity, customisation, and efficient human–agent collaboration.
 
 <div align="center">
-  <a href="https://docs.praison.ai">
+  <a href="https://docs.maahim.ai">
     <p align="center">
-      <img src="https://img.shields.io/badge/📚_Documentation-Visit_docs.praison.ai-blue?style=for-the-badge&logo=bookstack&logoColor=white" alt="Documentation" />
+      <img src="https://img.shields.io/badge/📚_Documentation-Visit_docs.maahim.ai-blue?style=for-the-badge&logo=bookstack&logoColor=white" alt="Documentation" />
     </p>
   </a>
 </div>
@@ -52,24 +52,24 @@ PraisonAI is an AI Agents Framework with Self Reflection. PraisonAI application 
 
 ### Auto Mode:
 ```bash
-pip install praisonai
+pip install maahimai
 export OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxx
-praisonai --auto create a movie script about Robots in Mars
+maahimai --auto create a movie script about Robots in Mars
 ```
 
 ### Initialise Mode:
 ```bash
-pip install praisonai
+pip install maahimai
 export OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxx
-praisonai --init create a movie script about Robots in Mars
-praisonai
+maahimai --init create a movie script about Robots in Mars
+maahimai
 ```
 
 ## Using Coding
 
 Light weight package dedicated for coding:
 ```bash
-pip install praisonaiagents
+pip install maahimaiagents
 ```
 
 ```bash
@@ -78,7 +78,7 @@ export OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxx
 
 Create app.py file and add the code below:
 ```python
-from praisonaiagents import Agent, Task, PraisonAIAgents
+from maahimaiagents import Agent, Task, MaahimAIAgents
 
 # 1. Create agents
 researcher = Agent(
@@ -119,7 +119,7 @@ task2 = Task(
     agent=writer,
 )
 
-agents = PraisonAIAgents(
+agents = MaahimAIAgents(
     agents=[researcher, writer],
     tasks=[task1, task2],
     verbose=False,
@@ -161,7 +161,7 @@ export LOGLEVEL=debug
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/images/architecture-dark.png" />
     <source media="(prefers-color-scheme: light)" srcset="docs/images/architecture-light.png" />
-    <img alt="PraisonAI Architecture" src="docs/images/architecture-light.png" />
+    <img alt="MaahimAI Architecture" src="docs/images/architecture-light.png" />
   </picture>
 </div>
 
@@ -169,58 +169,58 @@ export LOGLEVEL=debug
 
 | Interface | Description | URL |
 |---|---|---|
-| **UI** | Multi Agents such as CrewAI or AutoGen | [https://docs.praison.ai/ui/ui](https://docs.praison.ai/ui/ui) |
-| **Chat** | Chat with 100+ LLMs, single AI Agent | [https://docs.praison.ai/ui/chat](https://docs.praison.ai/ui/chat) |
-| **Code** | Chat with entire Codebase, single AI Agent | [https://docs.praison.ai/ui/code](https://docs.praison.ai/ui/code) |
-| **Realtime** | Real-time voice interaction with AI | [https://docs.praison.ai/ui/realtime](https://docs.praison.ai/ui/realtime) |
+| **UI** | Multi Agents such as CrewAI or AutoGen | [https://docs.maahim.ai/ui/ui](https://docs.maahim.ai/ui/ui) |
+| **Chat** | Chat with 100+ LLMs, single AI Agent | [https://docs.maahim.ai/ui/chat](https://docs.maahim.ai/ui/chat) |
+| **Code** | Chat with entire Codebase, single AI Agent | [https://docs.maahim.ai/ui/code](https://docs.maahim.ai/ui/code) |
+| **Realtime** | Real-time voice interaction with AI | [https://docs.maahim.ai/ui/realtime](https://docs.maahim.ai/ui/realtime) |
 
 | Other Features | Description | Docs |
 |---|---|---|
-| **Train** | Fine-tune LLMs using your custom data | [https://docs.praison.ai/train](https://docs.praison.ai/train) |
+| **Train** | Fine-tune LLMs using your custom data | [https://docs.maahim.ai/train](https://docs.maahim.ai/train) |
 
 
 ## Google Colab Multi Agents
 
 |               | Cookbook        | Open in Colab                                                                                                                                                                                                                                  |
 | ------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Basic         | PraisonAI       | <a target="_blank" href="https://colab.research.google.com/github/MervinPraison/PraisonAI/blob/main/cookbooks/praisonai-googlecolab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a>       |
-| Include Tools | PraisonAI Tools | <a target="_blank" href="https://colab.research.google.com/github/MervinPraison/PraisonAI/blob/main/cookbooks/praisonai-tools-googlecolab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a> |
+| Basic         | MaahimAI       | <a target="_blank" href="https://colab.research.google.com/github/MaahimAI/MaahimAI/blob/main/cookbooks/maahimai-googlecolab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a>       |
+| Include Tools | MaahimAI Tools | <a target="_blank" href="https://colab.research.google.com/github/MaahimAI/MaahimAI/blob/main/cookbooks/maahimai-tools-googlecolab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a> |
 
 ## Installation Options
 
 ### Using pip
 ```bash
-pip install praisonai
+pip install maahimai
 ```
 
 ### Framework-specific Installation
 ```bash
 # Install with CrewAI support
-pip install "praisonai[crewai]"
+pip install "maahimai[crewai]"
 
 # Install with AutoGen support
-pip install "praisonai[autogen]"
+pip install "maahimai[autogen]"
 
 # Install with both frameworks
-pip install "praisonai[crewai,autogen]"
+pip install "maahimai[crewai,autogen]"
 ```
 
 ### UI and Additional Features
 ```bash
 # Install UI support
-pip install "praisonai[ui]"
+pip install "maahimai[ui]"
 
 # Install Chat interface
-pip install "praisonai[chat]"
+pip install "maahimai[chat]"
 
 # Install Code interface
-pip install "praisonai[code]"
+pip install "maahimai[code]"
 
 # Install Realtime voice interaction
-pip install "praisonai[realtime]"
+pip install "maahimai[realtime]"
 
 # Install Call feature
-pip install "praisonai[call]"
+pip install "maahimai[call]"
 ```
 
 ## Quick Start
@@ -230,38 +230,38 @@ pip install "praisonai[call]"
 export OPENAI_API_KEY="Enter your API key"
 
 # Initialize with CrewAI (default)
-praisonai --init "create a movie script about dog in moon"
+maahimai --init "create a movie script about dog in moon"
 
 # Or initialize with AutoGen
-praisonai --framework autogen --init "create a movie script about dog in moon"
+maahimai --framework autogen --init "create a movie script about dog in moon"
 
 # Run the agents
-praisonai
+maahimai
 ```
 
 ## Full Automatic Mode
 
 ```bash
 # With CrewAI (default)
-praisonai --auto "create a movie script about Dog in Moon"
+maahimai --auto "create a movie script about Dog in Moon"
 
 # With AutoGen
-praisonai --framework autogen --auto "create a movie script about Dog in Moon"
+maahimai --framework autogen --auto "create a movie script about Dog in Moon"
 ```
 
 ## Framework-specific Features
 
 ### CrewAI
-When installing with `pip install "praisonai[crewai]"`, you get:
+When installing with `pip install "maahimai[crewai]"`, you get:
 - CrewAI framework support
-- PraisonAI tools integration
+- MaahimAI tools integration
 - Task delegation capabilities
 - Sequential and parallel task execution
 
 ### AutoGen
-When installing with `pip install "praisonai[autogen]"`, you get:
+When installing with `pip install "maahimai[autogen]"`, you get:
 - AutoGen framework support
-- PraisonAI tools integration
+- MaahimAI tools integration
 - Multi-agent conversation capabilities
 - Code execution environment
 
@@ -270,10 +270,10 @@ When installing with `pip install "praisonai[autogen]"`, you get:
 ## TL;DR Multi Agents
 
 ```bash
-pip install praisonai
+pip install maahimai
 export OPENAI_API_KEY="Enter your API key"
-praisonai --init create a movie script about dog in moon
-praisonai
+maahimai --init create a movie script about dog in moon
+maahimai
 ```
 
 ## Table of Contents
@@ -283,10 +283,10 @@ praisonai
 - [Run](#run)
 - [Full Automatic Mode](#full-automatic-mode)
 - [User Interface](#user-interface)
-- [Praison AI Chat](#praison-ai-chat)
+- [Maahim AI Chat](#maahim-ai-chat)
 - [Create Custom Tools](#create-custom-tools)
 - [Agents Playbook](#agents-playbook)
-- [Include praisonai package in your project](#include-praisonai-package-in-your-project)
+- [Include maahimai package in your project](#include-maahimai-package-in-your-project)
 - [Commands to Install Dev Dependencies](#commands-to-install-dependencies)
 - [Other Models](#other-models)
 - [Contributing](#contributing)
@@ -295,7 +295,7 @@ praisonai
 ## Installation Multi Agents
 
 ```bash
-pip install praisonai
+pip install maahimai
 ```
 
 ## Initialise
@@ -309,7 +309,7 @@ Generate your OPENAI API KEY from here: https://platform.openai.com/api-keys
 Note: You can use other providers such as Ollama, Mistral ... etc. Details are provided at the bottom.
 
 ```bash
-praisonai --init create a movie script about dog in moon
+maahimai --init create a movie script about dog in moon
 ```
 
 This will automatically create agents.yaml file in the current directory.
@@ -317,90 +317,90 @@ This will automatically create agents.yaml file in the current directory.
 ### To initialise with a specific agent framework (Optional):
 
 ```bash
-praisonai --framework autogen --init create movie script about cat in mars
+maahimai --framework autogen --init create movie script about cat in mars
 ```
 
 ## Run
 
 ```bash
-praisonai
+maahimai
 ```
 
 or
 
 ```bash
-python -m praisonai
+python -m maahimai
 ```
 
 ### Specify the agent framework (Optional):
 
 ```bash
-praisonai --framework autogen
+maahimai --framework autogen
 ```
 
 ### Full Automatic Mode
 
 ```bash
-praisonai --auto create a movie script about Dog in Moon
+maahimai --auto create a movie script about Dog in Moon
 ```
 
 ## User Interface
 
-## PraisonAI User Interfaces:
+## Maahim AI User Interfaces:
 
 | Interface | Description                                | URL                                                                   |
 | --------- | ------------------------------------------ | --------------------------------------------------------------------- |
-| **UI**    | Multi Agents such as CrewAI or AutoGen     | [https://docs.praisonai.com/ui/ui](https://docs.praison.ai/ui/ui)     |
-| **Chat**  | Chat with 100+ LLMs, single AI Agent       | [https://docs.praisonai.com/ui/chat](https://docs.praison.ai/ui/chat) |
-| **Code**  | Chat with entire Codebase, single AI Agent | [https://docs.praisonai.com/ui/code](https://docs.praison.ai/ui/code) |
+| **UI**    | Multi Agents such as CrewAI or AutoGen     | [https://docs.maahim.ai/ui/ui](https://docs.maahim.ai/ui/ui)     |
+| **Chat**  | Chat with 100+ LLMs, single AI Agent       | [https://docs.maahim.ai/ui/chat](https://docs.maahim.ai/ui/chat) |
+| **Code**  | Chat with entire Codebase, single AI Agent | [https://docs.maahim.ai/ui/code](https://docs.maahim.ai/ui/code) |
 
 ```bash
-pip install -U "praisonai[ui]"
+pip install -U "maahimai[ui]"
 export OPENAI_API_KEY="Enter your API key"
 chainlit create-secret
 export CHAINLIT_AUTH_SECRET=xxxxxxxx
-praisonai ui
+maahimai ui
 ```
 
 or
 
 ```
-python -m praisonai ui
+python -m maahimai ui
 ```
 
-## Praison AI Chat
+## Maahim AI Chat
 
-- https://docs.praison.ai/chat/
+- https://docs.maahim.ai/chat/
 
 ```bash
-pip install "praisonai[chat]"
+pip install "maahimai[chat]"
 export OPENAI_API_KEY="Enter your API key"
-praisonai chat
+maahimai chat
 ```
 
 ### Internet Search
 
-Praison AI Chat and Praison AI Code now includes internet search capabilities using Crawl4AI and Tavily, allowing you to retrieve up-to-date information during your conversations.
+Maahim AI Chat and Maahim AI Code now includes internet search capabilities using Crawl4AI and Tavily, allowing you to retrieve up-to-date information during your conversations.
 
 ### Vision Language Model Support
 
 You can now upload images and ask questions based on them using Vision Language Models. This feature enables visual understanding and analysis within your chat sessions.
 
-## Praison AI Code
+## Maahim AI Code
 
 ```bash
-pip install "praisonai[code]"
+pip install "maahimai[code]"
 export OPENAI_API_KEY="Enter your API key"
-praisonai code
+maahimai code
 ```
 
 ### Internet Search
 
-Praison AI Code also includes internet search functionality, enabling you to find relevant code snippets and programming information online.
+Maahim AI Code also includes internet search functionality, enabling you to find relevant code snippets and programming information online.
 
 ## Create Custom Tools
 
-- https://docs.praison.ai/tools/custom/
+- https://docs.maahim.ai/tools/custom/
 
 ## Agents Playbook
 
@@ -422,17 +422,17 @@ roles:
 
 ## Use 100+ Models
 
-- https://docs.praison.ai/models/
+- https://docs.maahim.ai/models/
 
-## Include praisonai package in your project
+## Include maahimai package in your project
 
-- https://docs.praison.ai/developers/wrapper
-- https://docs.praison.ai/developers/wrapper-tools/
+- https://docs.maahim.ai/developers/wrapper
+- https://docs.maahim.ai/developers/wrapper-tools/
 
 ## Option 1: Using RAW YAML
 
 ```python
-from praisonai import PraisonAI
+from maahimai import MaahimAI
 
 # Example agent_yaml content
 agent_yaml = """
@@ -450,11 +450,11 @@ roles:
         expected_output: "A summarized report on exoplanet discoveries, including their size, potential habitability, and distance from Earth."
 """
 
-# Create a PraisonAI instance with the agent_yaml content
-praisonai = PraisonAI(agent_yaml=agent_yaml)
+# Create a MaahimAI instance with the agent_yaml content
+maahimai = MaahimAI(agent_yaml=agent_yaml)
 
-# Run PraisonAI
-result = praisonai.run()
+# Run MaahimAI
+result = maahimai.run()
 
 # Print the result
 print(result)
@@ -465,11 +465,11 @@ print(result)
 Note: Please create agents.yaml file before hand.
 
 ```python
-from praisonai import PraisonAI
+from maahimai import MaahimAI
 
 def basic(): # Basic Mode
-    praisonai = PraisonAI(agent_file="agents.yaml")
-    praisonai.run()
+    maahimai = MaahimAI(agent_file="agents.yaml")
+    maahimai.run()
 
 if __name__ == "__main__":
     basic()
@@ -493,7 +493,7 @@ uv pip install -r pyproject.toml --extra "crewai,autogen"
 ## Contributing
 
 - Fork on GitHub: Use the "Fork" button on the repository page.
-- Clone your fork: `git clone https://github.com/yourusername/praisonAI.git`
+- Clone your fork: `git clone https://github.com/yourusername/maahimai.git`
 - Create a branch: `git checkout -b new-feature`
 - Make changes and commit: `git commit -am "Add some feature"`
 - Push to your fork: `git push origin new-feature`
@@ -502,11 +502,11 @@ uv pip install -r pyproject.toml --extra "crewai,autogen"
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=MervinPraison/PraisonAI&type=Date)](https://docs.praison.ai)
+[![Star History Chart](https://api.star-history.com/svg?repos=MaahimAI/MaahimAI&type=Date)](https://docs.maahim.ai)
 
 ## License
 
-Praison AI is an open-sourced software licensed under the **[MIT license](https://opensource.org/licenses/MIT)**.
+Maahim AI is an open-sourced software licensed under the **[MIT license](https://opensource.org/licenses/MIT)**.
 
 ## Video Tutorials
 
@@ -527,7 +527,7 @@ Praison AI is an open-sourced software licensed under the **[MIT license](https:
 
 ## License
 
-Praison AI is an open-sourced software licensed under the **[MIT license](https://opensource.org/licenses/MIT)**.
+Maahim AI is an open-sourced software licensed under the **[MIT license](https://opensource.org/licenses/MIT)**.
 
 ## Local Docker Development with Live Reload
 
@@ -541,7 +541,7 @@ To facilitate local development with live reload, you can use Docker. Follow the
 
     COPY . .
 
-    RUN pip install flask praisonai==2.0.18 watchdog
+    RUN pip install flask maahimai==2.0.18 watchdog
 
     EXPOSE 5555
 

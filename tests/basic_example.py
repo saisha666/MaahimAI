@@ -1,8 +1,8 @@
-from praisonai import PraisonAI
+from maahimai import MaahimAI
 
 def main():
-    praisonai = PraisonAI(agent_file="agents.yaml")
-    return praisonai.run()
+    maahimai = MaahimAI(agent_file="agents.yaml")
+    maahimai.run()
 
 if __name__ == "__main__":
-    print(main())
+    main()
